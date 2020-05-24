@@ -1,0 +1,18 @@
+baseURL = "https://moonshot.engineer"
+languageCode = "en-us"
+title = "Moonshot Engineer"
+theme = "neutral"
+
+[params]
+    subtitle = "Behind the rocket!"
+    description = "A journal about my learning and my opinions."
+    dateFormatToUse = "2006-01-02"
+    twitter = "YanaelBarbier"
+    github = "https://github.com/st3w4r"
+
+[menu]
+
+  [[menu.main]]
+    name = "Main"
+    url = "/"
+    weight = -100

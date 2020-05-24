@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  build:
+    image: hugo
+    command: hugo
+    working_dir: "/app"
+    volumes:
+      - ".:/app"
+      - "./public:/app/public"
+
+  server:
+    image: hugo
+    command: hugo server --bind="0.0.0.0" ${OPTIONS} # --buildDrafts
+    working_dir: "/app"
+    volumes:
+      - ".:/app"
+    ports:
+      - "1313:1313"

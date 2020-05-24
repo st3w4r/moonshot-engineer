@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://moonshot.engineer/articles/init/</loc>
+    <lastmod>2020-05-24T15:26:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://moonshot.engineer/</loc>
+    <lastmod>2020-05-21T21:29:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://moonshot.engineer/articles/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://moonshot.engineer/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://moonshot.engineer/tags/</loc>
+  </url>
+  
+</urlset>

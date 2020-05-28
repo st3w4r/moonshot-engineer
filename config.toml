@@ -16,3 +16,8 @@ theme = "neutral"
     name = "Main"
     url = "/"
     weight = -100
+
+  [[menu.main]]
+    name = "Author"
+    url = "https://yanael.io"
+    weight = -60

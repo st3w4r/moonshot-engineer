@@ -37,6 +37,14 @@ a:hover {
     text-decoration: underline;
 }
 
+article a {
+    text-decoration: underline;
+}
+
+article a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
 .meta-day-to-day {
     font-size: 15px;
     font-style: italic;
@@ -86,6 +94,10 @@ nav span {
     }
 
     .subtitle {
+        color: rgba(255, 255, 255, .5);
+    }
+
+    article a:hover {
         color: rgba(255, 255, 255, .5);
     }
 }

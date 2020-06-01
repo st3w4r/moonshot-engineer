@@ -23,6 +23,6 @@ Starting a project in your bedroom or your garage and thinking about where your 
 
 To enjoy the earth view.
 
-## NeXT
+## NeXT STEP
 
 Let's dig in!

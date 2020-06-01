@@ -14,10 +14,12 @@
     <item>
       <title>Init</title>
       <link>https://moonshot.engineer/articles/init/</link>
-      <pubDate>Sun, 24 May 2020 15:26:55 +0000</pubDate>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://moonshot.engineer/articles/init/</guid>
-      <description>Everything starts with an init.</description>
+      <description>Everything starts with an init.
+It&amp;rsquo;s a perfect time to release my new project, Moonshot Engineer, a place where I can share my learnings and my views mostly about tech, startups, software and data.
+Root cause One thing I love the most is understanding how people works. Every project have inputs and outputs, sometimes the outputs are outstanding but what&amp;rsquo;s the processes and steps to produce these outputs? How the things are made behind the hood?</description>
     </item>
     
   </channel>

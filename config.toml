@@ -2,6 +2,7 @@ baseURL = "https://moonshot.engineer"
 languageCode = "en-us"
 title = "Moonshot Engineer"
 theme = "neutral"
+summaryLength = 30
 
 [params]
     subtitle = "Behind the rocket!"

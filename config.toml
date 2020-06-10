@@ -22,3 +22,10 @@ summaryLength = 30
     name = "Author"
     url = "https://yanael.io"
     weight = -60
+
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  baseName = "rss"

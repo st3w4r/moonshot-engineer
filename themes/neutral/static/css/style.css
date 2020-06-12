@@ -123,3 +123,7 @@ pre {
     line-height: 20px;
     padding: 1em;
 }
+
+img {
+    width: 100%;
+}

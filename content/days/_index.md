@@ -7,7 +7,6 @@ title: "Day to Day"
 draft: true
 ---
 
-When I learn new things I stated to write every time during my journey to put down what I have in mind.
-All my questions, goals and understanding this end up with a long jounery with all the things I have learned.
+When I'm starting working on new things I use to write down what I have in mind, all my questions, goals and understanding. This end up with a long jounery with all the things I learned.
 
 So here my journeys:

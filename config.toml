@@ -10,6 +10,7 @@ summaryLength = 30
     dateFormatToUse = "2006-01-02"
     twitter = "YanaelBarbier"
     github = "https://github.com/st3w4r"
+    assetDir = "themes/neutral/assets"
 
 [menu]
 

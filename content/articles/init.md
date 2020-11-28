@@ -11,9 +11,9 @@ It's a perfect time to release my new project, Moonshot Engineer, a place where 
 
 ## Root cause
 
-One thing I love the most is understanding how people work in their day to day basis. Jump in or starting a new project requires understanding how the project works, what’s the purpose and goals of it, aligned with the philosophy behind it. Form the outside we can see the inputs and the outputs but the pipe between is most of the time hidden. Focus on the pipe, what’s inside, how things are made behind the hood? What were the decisions, the different proposals, the challenges, the methods, the tools, and why these choices were made?
+One thing I love the most is understanding how people work in their day to day basis. Jump in or starting a new project require to understand how the project works, what’s the purpose and goals of it, aligned with the philosophy behind it. From the outside we can see the inputs and the outputs, but the pipe between is most of the time hidden. Focus on the pipe, what’s inside, how things are made behind the hood? What were the decisions, the different proposals, the challenges, the methods, the tools, and why these choices were made?
 
-All of these questions are hard to answer when you don't work with the team or in the company itself and that's what I want to discover the unshared stories. One great thing is that in the software community open source is almost the root culture and that can help us to explore and understand how things are made! So it will be one of the most used channels to try to understand stories.
+All of these questions are hard to answer when you don't work with the team or in the company itself, and that's what I want to discover, the unshared stories. One great thing is that, in the software community, open source is almost the root culture and, that can help us to explore and understand how things are made! So it will be one of the most used channels to try to understand stories.
 
 ## Behind the rocket
 

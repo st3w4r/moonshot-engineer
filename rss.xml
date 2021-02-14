@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Moonshot Engineer</title><link>https://moonshot.engineer/</link><description>Recent content on Moonshot Engineer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 21 May 2020 21:29:48 +0000</lastBuildDate><atom:link href="https://moonshot.engineer/rss.xml" rel="self" type="application/rss+xml"/><item><title>Init</title><link>https://moonshot.engineer/articles/init/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://moonshot.engineer/articles/init/</guid><description>&lt;p>Everything starts with an init.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Moonshot Engineer</title><link>https://moonshot.engineer/</link><description>Recent content on Moonshot Engineer</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 21 May 2020 21:29:48 +0000</lastBuildDate><atom:link href="https://moonshot.engineer/rss.xml" rel="self" type="application/rss+xml"/><item><title>Subscribe</title><link>https://moonshot.engineer/subscribe/</link><pubDate>Sun, 14 Feb 2021 00:00:00 +0000</pubDate><guid>https://moonshot.engineer/subscribe/</guid><description>&lt;p>To receive my fresh articles and day-to-day posts:&lt;/p>
+&lt;p>RSS: &lt;a href="https://moonshot.engineer/rss.xml
+">https://moonshot.engineer/rss.xml
+&lt;/a>&lt;/p>
+&lt;p>&lt;form id="form-subscribe"
+action="https://formspree.io/f/mleopdlv"
+method="POST"
+>
+&lt;label>Email:&lt;/label>
+&lt;input type="email" name="email" />
+&lt;button id="form-subscribe-button">Subscribe&lt;/button>
+&lt;p id="form-subscribe-status">&lt;/p>
+&lt;/form>
+&lt;script>
+window.addEventListener("DOMContentLoaded",function(){var form=document.getElementById("form-subscribe");var button=document.getElementById("form-subscribe-button");var status=document.getElementById("form-subscribe-status");function success(){form.reset();button.style="display: none ";status.innerHTML="Thanks!";}
+function error(){status.innerHTML="Oops! There was a problem.";}
+form.addEventListener("submit",function(ev){ev.preventDefault();var data=new FormData(form);ajax(form.method,form.action,data,success,error);});});function ajax(method,url,data,success,error){var xhr=new XMLHttpRequest();xhr.open(method,url);xhr.setRequestHeader("Accept","application/json");xhr.onreadystatechange=function(){if(xhr.readyState!==XMLHttpRequest.DONE)return;if(xhr.status===200){success(xhr.response,xhr.responseType);}else{error(xhr.status,xhr.response,xhr.responseType);}};xhr.send(data);}
+&lt;/script>
+&lt;/p></description></item><item><title>Init</title><link>https://moonshot.engineer/articles/init/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate><guid>https://moonshot.engineer/articles/init/</guid><description>&lt;p>Everything starts with an init.&lt;/p>
 &lt;p>It&amp;rsquo;s a perfect time to release my new project, Moonshot Engineer, a place where I can share my learnings and my views mostly about tech, startups, software, and data.&lt;/p>
 &lt;h2 id="root-cause">Root cause&lt;/h2>
 &lt;p>One thing I love the most is understanding how people work in their day to day basis. Jump in or starting a new project require to understand how the project works, what’s the purpose and goals of it, aligned with the philosophy behind it. From the outside we can see the inputs and the outputs, but the pipe between is most of the time hidden. Focus on the pipe, what’s inside, how things are made behind the hood? What were the decisions, the different proposals, the challenges, the methods, the tools, and why these choices were made?&lt;/p>

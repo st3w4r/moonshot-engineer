@@ -7,11 +7,18 @@
             <time datetime="{{.Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2 January 2006" }}</time>
         </div>
         {{ end }}
+        {{ if eq .Type "day_to_day" }}
+        <div class="meta-day-to-day">
+            <span>{{.Params.number_of_days}} days</span>
+            <span>- updated on</span>
+            <span><time datetime="{{.Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2 January 2006" }}</time></span>
+        </div>
+        {{ end }}
     </header>
     {{ .Content }}
-    {{ if eq .Type "page" }}
+    {{ if eq .Params.updated_on true }}
         <footer>
-            <p>Updated on {{ .Date.Format "2 January 2006" }}</p>
+            <p>Updated on <time datetime="{{.Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "2 January 2006" }}</time></p>
         </footer>
     {{ end }}
 </article>
